@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @MapperScan(basePackages ={"com.defyer.system.mapper"} )
-@EnableConfigurationProperties(DruidConfig.class)
 public class DemoApplication {
 
     public static void main(String[] args) {
@@ -17,10 +16,6 @@ public class DemoApplication {
     }
 
 
-    @Bean
-    public DruidConfig druidConfig(){
-        DruidConfig druidConfig= new DruidConfig();
-        return druidConfig;
-    }
+
 
 }
