@@ -53,4 +53,21 @@ class DemoApplicationTests {
 
     }
 
+
+
+    @Test
+    public void testQuery2(){
+
+
+
+
+
+        Table1 table1=table1Mapper.selectById(7);
+
+        System.out.println(table1);
+
+        System.out.println(druidConfig);
+
+    }
+
 }
