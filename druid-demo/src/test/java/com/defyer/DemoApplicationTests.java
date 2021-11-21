@@ -82,7 +82,9 @@ class DemoApplicationTests {
         Arrays.fill(arr, poolingCount - removeCount, poolingCount, 0);
 
         System.out.println(Arrays.toString(arr));
-
     }
+
+
+
 
 }
